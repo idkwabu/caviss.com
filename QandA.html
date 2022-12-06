@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./QandA.css">
+    <script src="https://kit.fontawesome.com/1a394a8845.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+  <div class="hero-container">
+    <div data-aos="fade-right"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine" 
+    data-aos-duration="3000" class="start">
+        <h1><a href="tech.html" style="color: white;"> Futures</a> <i class="fa-solid fa-bolt" style="color:white ;"></i></h1>
+    </div>
+  
+ <div data-aos="fade-left"
+ data-aos-anchor="#example-anchor"
+ data-aos-offset="500"
+ data-aos-duration="3000" class="middle">
+     <ol>
+         <li><a href="main.html"><span style="color: white">Home</span></a></li>
+         <li> <a href="aboutus.html"><span style = "color: white">About Us</span></a> </li>
+         <li><a href="QandA.html"><span style="color: white">Q&A</span></a></li>
+         <li><a href="sample.html"><span style="color: white">Samples</span></a> </li>
+         <li><a href="tech.html"><span style="color: white">Technology</span></a></li>
+         <li><a href="control.html"><span style="color: white">Controller</span></a></li>
+          <li><a id="login" href="product.html"><span style="color: white">Product</span></a></li>
+     </ol>
+ </div>
+</div>
+   <div data-aos="fade-up"
+   data-aos-duration="3000" class="main1">
+    <section id="contact">
+
+      <h1 class="section-header" style="font-family:'Montserrat',sans-serif ;">Contact <i class="fa-brands fa-phoenix-squadron"></i></h1>
+    
+      <div class="contact-wrapper">
+    
+   
+    
+        <form id="contact-form" class="form-horizontal" role="form">
+    
+          <div class="form-group" style="margin-bottom:20px;">
+            <div class="col-sm-12">
+              <input style="height:34px;width:400px" type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+            </div>
+          </div>
+    
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input style="height:34px;width:400px;margin-bottom:20px"  type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+            </div>
+          </div>
+    
+          <textarea style="height:200px;width:400px" class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+    
+          <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+            <div class="alt-send-button">
+              <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+            </div>
+    
+          </button>
+    
+        </form>
+    
+     
+    
+        <div class="direct-contact-container" style="margin-left:100px;">
+    
+          <ul  class="contact-list">
+            <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Sơn La city</span></i></li>
+    
+            <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="" title="Give me a call">+84343398899</a></span></i></li>
+    
+            <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="" title="Send me an email">dotienthanhthanh6@gmail.com</a></span></i></li>
+    
+          </ul>
+    
+          <hr>
+          <ul class="social-media-list">
+            <li><a id="click1" href="https://www.facebook.com/SupermanYThunder1" target="_blank" class="contact-icon">
+              <i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-codepen" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="https://www.instagram.com/thanhtien_28/" target="_blank" class="contact-icon">
+                <i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+          <hr>
+    
+          <div class="copyright">&copy; Code by Thành</div>
+    
+        </div>
+    
+      </div>
+    
+    </section>
+   </div>
+      <script>
+        document.querySelector('#contact-form').addEventListener('submit', (e) => {
+    e.preventDefault();
+    e.target.elements.name.value = '';
+    e.target.elements.email.value = '';
+    e.target.elements.message.value = '';
+  });
+document.getElementById('click1').addEventListener('click', function(e){
+ window.location.href = 'https://www.facebook.com/SupermanYThunder1'
+})
+      </script>
+      <script>
+        AOS.init();
+      </script>
+</body>
+</html>

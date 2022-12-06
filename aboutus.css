@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;1,600;1,700;1,800&display=swap');
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat',sans-serif;
+   
+}
+.hero-container{
+    color: #393c41;
+    display:flex;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+    justify-content:space-between;
+    line-height:20px;
+ }
+ .start h1{
+     display: flex;
+     align-items: center;
+     color: #171a20;
+     flex-basis: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:40px;
+    font-weight:500;
+    justify-content:flex-start;
+    letter-spacing:-0.6px;
+    line-height:48px;
+    padding: 0px 0px 0px 32px;
+    
+ }
+ .banner{
+    color:#e2e3e3;
+    font-size: 14px;
+    line-height:20px;
+    background-color: #000000;
+}
+.banner h1{
+    font-family: 'Montserrat',sans-serif;
+    font-size:28px;
+    font-weight: 500;
+    letter-spacing:-0.5px;
+    line-height:36px;
+    padding: 32px 0px 8px;
+    text-align: center;
+}
+ .middle ol{
+     display: flex;
+     color: #393c41;
+     align-items: center;
+     font-family: 'Montserrat', sans-serif;
+     font-size:14px;
+     justify-content:center;
+     line-height:20px;
+     padding: 0px 8px;
+     transition: all 0.8s ease;
+ }
+ .middle ol li a{
+     display:inline-flex;
+     align-items:center;
+     border-radius: 12px;
+     color: #171a20;
+     font-family: 'Montserrat', sans-serif;
+     font-size:14px;
+     font-weight:500;
+     line-height:20px;
+     padding: 4px 8px;
+     text-align:left;
+     transition: all 0.8s ease;
+ }
+ .middle ol li a span{
+     color: #171a20;
+     font-size:14px;
+     font-weight:500;
+     line-height:20px;
+     margin:0px 8px ;
+     text-align: left;
+     transition: all 0.8s ease;
+ }
+ .middle ol li a:hover{
+     
+     background-color:rgb(185, 174, 174);
+     color: rgb(185, 174, 174);;
+ 
+ }
+ .start h1 a{
+     display:flex;
+     align-items: center;
+     color: #171a20;
+     font-family: 'Montserrat', sans-serif;
+     font-size:40px;
+     font-weight:500;
+     letter-spacing:-0.6px;
+     line-height:48px;
+     padding: 0px 16px;
+ }
+body{
+    background-color: black;
+    
+
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+    max-height: 800px;
+    max-width: 1280px;
+    min-height: 600px;
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  .border {
+    height: 369px;
+    width: 290px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
+  }
+  .border:hover {
+    border: 1px solid #fff;
+  }
+  .card {
+    height: 379px;
+    width: 300px;
+    background: #808080;
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 70px 63px -60px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .card0 {
+    background: url("https://images.unsplash.com/photo-1525673812761-4e0d45adc0cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bmljZSUyMHBob3RvfGVufDB8fDB8fA%3D%3D&w=1000&q=80") center center no-repeat;
+    background-size: 300px;
+  }
+  .card0:hover {
+    background: url("https://images.unsplash.com/photo-1525673812761-4e0d45adc0cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bmljZSUyMHBob3RvfGVufDB8fDB8fA%3D%3D&w=1000&q=80") center center no-repeat;
+    background-size: 600px;
+  }
+  .card0:hover h2 {
+    opacity: 1;
+  }
+  .card0:hover .fa {
+    opacity: 1;
+  }
+  .card1 {
+    background: url("https://video.fhan5-8.fna.fbcdn.net/v/t1.6435-9/150865967_1314174428965407_8514654041129613620_n.jpg?_nc_cat=108&ccb=1-6&_nc_sid=174925&_nc_ohc=ZMBn6Kn41GoAX8Ug9ov&_nc_ht=video.fhan5-8.fna&oh=00_AT9f5WBdh0kUyNBzBtVtOQyuI4-WSEroUbh4Ug3Af0_RiA&oe=62AAF165") center center no-repeat;
+    background-size: 300px;
+  }
+  .card1:hover {
+    background: url("https://video.fhan5-8.fna.fbcdn.net/v/t1.6435-9/150865967_1314174428965407_8514654041129613620_n.jpg?_nc_cat=108&ccb=1-6&_nc_sid=174925&_nc_ohc=ZMBn6Kn41GoAX8Ug9ov&_nc_ht=video.fhan5-8.fna&oh=00_AT9f5WBdh0kUyNBzBtVtOQyuI4-WSEroUbh4Ug3Af0_RiA&oe=62AAF165  ") top center no-repeat;
+    background-size: 600px;
+  }
+  .card1:hover h2 {
+    opacity: 1;
+  }
+  .card1:hover .fa {
+    opacity: 1;
+  }
+  .card2 {
+    background: url("https://video.fhan5-11.fna.fbcdn.net/v/t1.15752-9/275384231_314381587430003_5255614013175773808_n.png?_nc_cat=111&ccb=1-6&_nc_sid=ae9488&_nc_ohc=QEE0-5htmhwAX9S2g-p&_nc_ht=video.fhan5-11.fna&oh=03_AVJbbNTJ-CtEYO1Cr1qJ43eCbsJ9a8FykJukglRRQoX07g&oe=62A83B8B") center center no-repeat;
+    background-size: 300px;
+  }
+  .card2:hover {
+    background: url("https://video.fhan5-11.fna.fbcdn.net/v/t1.15752-9/275384231_314381587430003_5255614013175773808_n.png?_nc_cat=111&ccb=1-6&_nc_sid=ae9488&_nc_ohc=QEE0-5htmhwAX9S2g-p&_nc_ht=video.fhan5-11.fna&oh=03_AVJbbNTJ-CtEYO1Cr1qJ43eCbsJ9a8FykJukglRRQoX07g&oe=62A83B8B") center center no-repeat;
+    background-size: 600px;
+  }
+  .card2:hover h2 {
+    opacity: 1;
+  }
+  .card2:hover .fa {
+    opacity: 1;
+  }
+  h2 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #fff;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  .fa {
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  .icons {
+    position: absolute;
+    fill: #fff;
+    color: #fff;
+    height: 130px;
+    top: 226px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .card3 {
+    background: url("https://video.fhan5-10.fna.fbcdn.net/v/t1.15752-9/275845287_725942332120184_9127041600936781057_n.png?_nc_cat=101&ccb=1-6&_nc_sid=ae9488&_nc_ohc=CbqfBsCpRFAAX9-NmOq&_nc_ht=video.fhan5-10.fna&oh=03_AVLITqHb9Nfd4OYg2ekT300YWCUTbXX35IYCs1MBI0Yhxg&oe=62AABC5A") center center no-repeat;
+    background-size: 300px;
+  }
+  .card3:hover {
+    background: url("https://video.fhan5-10.fna.fbcdn.net/v/t1.15752-9/275845287_725942332120184_9127041600936781057_n.png?_nc_cat=101&ccb=1-6&_nc_sid=ae9488&_nc_ohc=CbqfBsCpRFAAX9-NmOq&_nc_ht=video.fhan5-10.fna&oh=03_AVLITqHb9Nfd4OYg2ekT300YWCUTbXX35IYCs1MBI0Yhxg&oe=62AABC5A") center bottom no-repeat;
+    background-size: 600px;
+  }
+  .card3:hover h2 {
+    opacity: 1;
+  }
+  .card3:hover .fa {
+    opacity: 1;
+  }
+  .card4 {
+    background: url("https://video.fhan5-8.fna.fbcdn.net/v/t1.15752-9/276948481_548202590314764_695144384220292370_n.png?_nc_cat=108&ccb=1-6&_nc_sid=ae9488&_nc_ohc=CVKBQHWDJAkAX8jY__b&_nc_ht=video.fhan5-8.fna&oh=03_AVI4SIw7pFdyXtSAboYoXxgUb5YjyFwpjrh9xP4NOGf6Iw&oe=62A84186") center center no-repeat;
+    background-size: 300px;
+  }
+  .card4:hover {
+    background: url("https://video.fhan5-8.fna.fbcdn.net/v/t1.15752-9/276948481_548202590314764_695144384220292370_n.png?_nc_cat=108&ccb=1-6&_nc_sid=ae9488&_nc_ohc=CVKBQHWDJAkAX8jY__b&_nc_ht=video.fhan5-8.fna&oh=03_AVI4SIw7pFdyXtSAboYoXxgUb5YjyFwpjrh9xP4NOGf6Iw&oe=62A84186") center bottom no-repeat;
+    background-size: 600px;
+  }
+  .card4:hover h2 {
+    opacity: 1;
+  }
+  .card4:hover .fa {
+    opacity: 1;
+  }
+  .card5 {
+    background: url("https://video.fhan5-11.fna.fbcdn.net/v/t1.15752-9/275257905_3071765776486084_6611715708461274471_n.png?_nc_cat=104&ccb=1-6&_nc_sid=ae9488&_nc_ohc=9V5sxtD1N_cAX-Y6ReP&tn=ptSQHQ2CAKCqJ3Yo&_nc_ht=video.fhan5-11.fna&oh=03_AVKThelRZUv9qZoPTzWXbYD6PUEuog74Ke35FrEdG3lurQ&oe=62AB92DC") center center no-repeat;
+    background-size: 300px;
+  }
+  .card5:hover {
+    background: url("https://video.fhan5-11.fna.fbcdn.net/v/t1.15752-9/275257905_3071765776486084_6611715708461274471_n.png?_nc_cat=104&ccb=1-6&_nc_sid=ae9488&_nc_ohc=9V5sxtD1N_cAX-Y6ReP&tn=ptSQHQ2CAKCqJ3Yo&_nc_ht=video.fhan5-11.fna&oh=03_AVKThelRZUv9qZoPTzWXbYD6PUEuog74Ke35FrEdG3lurQ&oe=62AB92DC") center center no-repeat;
+    background-size: 600px;
+  }
+  .card5:hover h2 {
+    opacity: 1;
+  }
+  .card5:hover .fa {
+    opacity: 1;
+  }
